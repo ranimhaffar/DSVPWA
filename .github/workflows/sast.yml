@@ -35,6 +35,6 @@ jobs:
           ./sonar-scanner-*/bin/sonar-scanner \
             -Dsonar.projectKey=tp-sast \
             -Dsonar.sources=. \
-            -Dsonar.host.url=$SONAR_HOST_URL_NGROK\
+            -Dsonar.host.url=$SONAR_HOST_URL_ngrok\
             -Dsonar.login=$SONAR_TOKEN
 
